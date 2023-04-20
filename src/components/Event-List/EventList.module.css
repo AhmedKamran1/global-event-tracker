@@ -1,0 +1,54 @@
+.fireicon {
+  color: darkorange;
+}
+
+.stormicon {
+  color: darkblue;
+}
+
+.icebergicon {
+  color: lightblue;
+}
+
+.volcanoicon {
+  color: red;
+}
+
+.listcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(244, 253, 253, 0.199);
+}
+
+.listcontainer:hover{
+  background-color: rgba(244, 253, 253, 0.199);
+}
+
+.listcontainer:active{
+  background-color: rgba(122, 99, 99, 0.911);
+  color: white;
+  transition: background-color 0.125s;
+}
+
+.title{
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  transition: background-color 0.125s;
+  border-radius: 3px;
+}
+
+.icon{
+  width: 1.5rem;
+  margin-left: -1.3rem;
+  font-size: 1.5rem;
+  padding-top: 0.8rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .icon{
+    font-size: 1.2rem;
+  }
+}

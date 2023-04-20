@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventlist{
+    margin-top: 2rem;
+    color: white;
+    width: 100%;
+}
+
+.select{
+    background-color: transparent;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    border-style: none;
+    border-bottom: 1px dotted gray;
+    font-size: 1rem;
+}
+
+.select:hover{
+    background-color: rgba(72, 104, 211, 0.116);
+}
+
+.option{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.pagecontainer{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    margin: 2rem;
+    color: black;
+}
+
+.page:hover{
+    background-color: rgba(244, 247, 255, 0.87);
+    transition: background-color 0.125s;
+}
+
+.page:active{
+    background-color: rgba(255, 255, 255, 0.116);
+    color: white;
+    transition: background-color 0.125s;
+}
+
+.page{
+    width: 1.8rem;
+    margin: 2px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.page a{
+    display: inline-block;
+    width: 1.8rem;
+}
+
+.breaklabel{
+    color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+    .eventlist{
+      margin: 0.5rem;
+    }
+
+    .select{
+        font-size: 0.8rem;
+        width: 8rem;
+        height: 1.5rem;
+    }
+  }
